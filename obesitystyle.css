@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.maincont {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.heading {
+  padding-left: 200px;
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.cont1, .cont3, .cont4, .cont5, .cont6, .cont7 {
+  margin-bottom: 50px;
+}
+
+.heading>img {
+  height: 60px;
+  width: 60px;
+}
+
+.cont1 {
+  float: right;
+  display: inline-flex;
+}
+
+.sub1 {
+  background-color: orange;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.sub2 {
+  background-color: lightblue;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.cont4 {
+  float: right;
+  display: inline-flex;
+}
+
+.sub3 {
+  background-color: pink;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.sub4 {
+  background-color: orange;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.sub5 {
+  background-color: lightblue;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.sub6 {
+  background-color: pink;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.sub1>img, .sub2>img, .cont2>img {
+  height: 50px;
+  width: 50px;
+}
+
+.cont2>img {
+  background-color: pink;
+}
+
+.cont4, .cont7 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.6;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.cont3 {
+  background-color: lightblue;
+  line-height: 1.6;
+  padding: 20px 20px;
+  column-count: 2;
+}
+
+.cont5 {
+  background-color: lightblue;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.cont6 {
+  background-color: orange;
+  line-height: 1.6;
+  padding: 20px 20px;
+}
+
+.cont3>span>img {
+  height: 20px;
+  width: 20px;
+}
+
+.cont4>.sub3>img {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+}
+
+.cont4>.sub4>img {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cont5>img {
+  float: right;
+  height: 50px;
+  width: 50px;
+}
+
+.cont6>img {
+  float: right;
+  height: 50px;
+  width: 50px;
+}
